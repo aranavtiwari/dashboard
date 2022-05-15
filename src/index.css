@@ -7,31 +7,20 @@ h3{
 }
 .main{
     display: flex;
-    /* background: linear-gradient(-45deg, #171616, #071d8a, #090032, #161617);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite; */
     background-color: #1e1e2f;
 	
-}
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
 }
 /* ============================================================== */
 
 .nav-main{
-    width: 12vw !important;
+    width: 12vw;
     height: 100vh;
     padding: 35px 0px 0px 0px;
     
 }
+
+
+  
 .nav{
     display: flex !important ;
     flex-direction: column;
@@ -72,8 +61,8 @@ h3{
     text-decoration: underline;
 }
 .avt{
-    width: 8vw !important;
-    height: 15vh !important;
+    width: 8vw ;
+    height: 15vh ;
     background-color: #1e1e2f !important;
 }
 
@@ -82,6 +71,8 @@ h3{
     margin-top: 25vh;
     
 }
+
+
 .set{
     display: block;
     margin: 25px 0px;
@@ -130,6 +121,7 @@ h3{
     background-color: rgba(240, 248, 255, 0.87);
 
 }
+
 .bal-pla:hover{
     background-color: white;
 }
@@ -312,6 +304,57 @@ h3{
       color: aliceblue;
   }
 
+
+  /* ========================================================================================== */
+  @media screen and (max-width: 900px) {
+    .main{
+        flex-direction: column;
+    }
+
+    .nav-main{
+        width: 100%;
+        height: 5%;
+        padding: 4px;
+    }
+    .nav{
+        height: 120px !important;
+        padding: 0px;
+        flex-direction: row;
+    }
+    .nav-name, .nav-val{
+        margin: 0px;
+    }
+    .avt{
+        width: 10px;
+        height: 10x;
+    }
+    .nav-up{
+        display: flex;
+        margin: 0px 4px;
+    }
+    .setting {
+        margin: 5px;
+        display: flex;
+        flex-direction: row;
+    }
+    .set{
+        margin: 10px;
+    }
+    .content{
+        margin-top:10px
+    }
+    .bal-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .bal-pla{
+        height: 8vh;
+        padding: 4px 4px;
+        margin: 4px;
+        width: 40vw;
+    }
+
+}
 
   
 
