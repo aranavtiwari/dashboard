@@ -328,6 +328,10 @@ h3{
         width: 10px;
         height: 10x;
     }
+    .nav-val{
+        font-size: 12px;
+        margin: 0px 5px;
+    }
     .nav-up{
         display: flex;
         margin: 0px 4px;
@@ -336,6 +340,7 @@ h3{
         margin: 5px;
         display: flex;
         flex-direction: row;
+        font-size: 10px;
     }
     .set{
         margin: 10px;
