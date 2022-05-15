@@ -1,15 +1,20 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 h3{
     color: aliceblue;
 }
 .main{
     display: flex;
-    background-color: #1e1e2f;
+    background-color: #1e1e2ffb;
 	
 }
+
+
+
+
 /* ============================================================== */
 
 .nav-main{
@@ -24,9 +29,9 @@ h3{
 .nav{
     display: flex !important ;
     flex-direction: column;
-    background: linear-gradient(-45deg, #970297, #c00bcd, #ae3805, #161617);
+    background: linear-gradient(-45deg, #970297, #c00bcd, #ca4912, #161617);
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 4s ease infinite;
     height: 85vh;
     padding: 4vh 1vw;
     align-items: center;
