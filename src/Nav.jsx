@@ -16,7 +16,7 @@ const Nav = () => {
                 <Avatar className="avt">A</Avatar>
                     <p className="nav-name">Aranavsheel Tiwari</p>
                     <div className="nav-up">
-                    <Link className="nav-val" to="/">{<FaBuffer/>} Dashboard</Link>
+                    <Link className="nav-val" to="/dashboard/">{<FaBuffer/>} Dashboard</Link>
                     <Link className="nav-val" to="/stock">{<FaClipboardList/>} Statement</Link>
                     </div>
                     <div className="setting">
